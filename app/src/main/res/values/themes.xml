@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NYTimesArticles" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/teal_200</item>
+        <item name="colorPrimaryDark">@color/teal_700</item>
+        <item name="colorAccent">@color/light_green</item>
+    </style>
+
+    <style name="Theme.NYTimesArticles.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="background">@color/white</item>
+    </style>
+
+    <style name="Theme.NYTimesArticles.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NYTimesArticles.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="TextAppearance.Category" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="@style/TextAppearance.AppCompat.Subhead">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Preview" parent="@style/TextAppearance.AppCompat.Body1" />
+
+    <style name="TextAppearance.Date" parent="@style/TextAppearance.AppCompat.Caption" />
+
+
+    <style name="TextAppearance.Details.Title" parent="@style/TextAppearance.AppCompat.Headline">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Details.Date" parent="@style/TextAppearance.AppCompat.Small" />
+
+    <style name="TextAppearance.Details.Text" parent="@style/TextAppearance.AppCompat.Subhead" />
+
+
+</resources>

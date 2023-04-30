@@ -23,5 +23,11 @@ In order to operate this android application, you will need to perform the follo
 
 
 
+**The application can be operated in the following manner**
+![Untitled_AdobeExpress](https://user-images.githubusercontent.com/100478213/235370932-81c0f8ef-ebd8-4d8f-97ff-f4fb497986ae.gif)
+
+
+
+
 
 
